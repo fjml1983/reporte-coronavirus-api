@@ -35,7 +35,8 @@ Actualmente es el puerto **8090** pero puede ser configurado modificando en el a
 `var port = process.env.PORT || 8090; `
 
 
+#### LIVE DEMO
+Pude accederse a una versión completamente funcional de la API publicada en Heroku y respaldada por ClearDB MySQL mediante las rutas ya descritas sobre el siguiente enlace:
 
-
-
+https://reporte-coronavirus-api.herokuapp.com/
 
