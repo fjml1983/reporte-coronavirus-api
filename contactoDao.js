@@ -1,4 +1,4 @@
-var config = require('./dbconfig');//Instanciamos el archivo dbconfig
+const config = require('./dbconfig');//Instanciamos el archivo dbconfig para deploy
 const util = require('util');//Se necesita para asyncroinificar la libreria de mysql
 const mysql = require('mysql');//Se necesita paquete mysql
 
