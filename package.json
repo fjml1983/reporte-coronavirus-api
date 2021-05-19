@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon api.js"
+    "test": "nodemon api.js",
+    "start": "node api.js"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
