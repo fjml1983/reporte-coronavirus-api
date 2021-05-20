@@ -1,4 +1,5 @@
 const contactoDao = require('./contactoDao');
+const helmet = require("helmet");
 
 //Requerido en todos
 var express = require('express');
@@ -11,6 +12,7 @@ var router = express.Router();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(cors());
+app.use(helmet());
 app.use('/api', router);//Ruta principal
 
 //Ruta de bienvenida eg: http://localhost:8090
