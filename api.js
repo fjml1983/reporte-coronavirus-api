@@ -1,3 +1,5 @@
+//TODO: Configurar oAuth: https://www.youtube.com/watch?v=QQwo4E_B0y8
+
 const contactoDao = require('./contactoDao');
 const helmet = require("helmet");
 

@@ -2,7 +2,7 @@
 
 Reporte-coronavirus-api es un proyecto que pretende fungir como BackEnd para la gestión de contactos integrada al proyecto [Reporte-Coronavirus](https://github.com/fjml1983/reporte-coronavirus) mediante una API REST.
 
-Se encuentra desarrollada con apoyo de Express.js y se vincula a una base de datos en MySQL server.  El script de la base de datos puede ser descargado desde este [enlace al script](https://drive.google.com/file/d/1rsukYSpw8Xobk-6q1dHa0YSU5rR4Sryn/view?usp=sharing).
+Se encuentra desarrollada con Node.js sobre Express.js y se vincula a una base de datos en MySQL server.  El script de la base de datos puede ser descargado desde este [enlace al script](https://drive.google.com/file/d/1rsukYSpw8Xobk-6q1dHa0YSU5rR4Sryn/view?usp=sharing).
 
 Para arrancar el proyecto basta con descargarlo en una carpeta, asegurarse que se tiene la última versión de Node.js y dentro de la carpeta ejecutar los comandos:
 
@@ -38,5 +38,10 @@ Actualmente es el puerto **8090** pero puede ser configurado modificando en el a
 #### LIVE DEMO
 Pude accederse a una versión completamente funcional de la API publicada en Heroku y respaldada por ClearDB MySQL mediante las rutas ya descritas sobre el siguiente enlace:
 
-https://reporte-coronavirus-api.herokuapp.com/
+LIVE DEMO: https://reporte-coronavirus-api.herokuapp.com/
+
+
+
+
+Consola heroku: https://dashboard.heroku.com/apps/reporte-coronavirus-api
 
